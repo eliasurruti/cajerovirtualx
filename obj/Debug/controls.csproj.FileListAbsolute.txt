@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\cajerox\obj\Debug\controls.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.Properties.Resources.resources
+C:\Users\Admin\source\repos\cajerox\obj\Debug\controls.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\controls.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.exe
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.pdb
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.exe.config
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.exe
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.pdb
+C:\Users\Admin\source\repos\cajerox\bin\Debug\back.dll
+C:\Users\Admin\source\repos\cajerox\bin\Debug\back.pdb
+C:\Users\Admin\source\repos\cajerox\obj\Debug\controls.csproj.CopyComplete
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.Ticket1.resources
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.Cajero.resources

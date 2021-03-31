@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controls", "controls.csproj", "{7C6CF405-2D13-4AA8-84CF-28038D8CFFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mov", "..\back\Mov.csproj", "{C22A7C2C-F9E3-48AD-8417-2881D9DA83B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6CF405-2D13-4AA8-84CF-28038D8CFFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6CF405-2D13-4AA8-84CF-28038D8CFFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6CF405-2D13-4AA8-84CF-28038D8CFFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6CF405-2D13-4AA8-84CF-28038D8CFFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22A7C2C-F9E3-48AD-8417-2881D9DA83B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22A7C2C-F9E3-48AD-8417-2881D9DA83B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22A7C2C-F9E3-48AD-8417-2881D9DA83B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22A7C2C-F9E3-48AD-8417-2881D9DA83B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68EB427-4D13-486A-8A88-E0F05F029E74}
+	EndGlobalSection
+EndGlobal

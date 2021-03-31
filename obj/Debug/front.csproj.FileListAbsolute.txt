@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.exe.config
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.exe
+C:\Users\Admin\source\repos\cajerox\bin\Debug\cajerox.pdb
+C:\Users\Admin\source\repos\cajerox\bin\Debug\back.dll
+C:\Users\Admin\source\repos\cajerox\bin\Debug\back.pdb
+C:\Users\Admin\source\repos\cajerox\obj\Debug\front.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.Form1.resources
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.Properties.Resources.resources
+C:\Users\Admin\source\repos\cajerox\obj\Debug\front.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\front.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\cajerox\obj\Debug\front.csproj.CopyComplete
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.exe
+C:\Users\Admin\source\repos\cajerox\obj\Debug\cajerox.pdb
