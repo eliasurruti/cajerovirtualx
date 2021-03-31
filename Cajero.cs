@@ -24,9 +24,8 @@ namespace cajerox
             lblSaldo.Text = "$ " + Convert.ToString(mod.saldo);
            
         }
-             
-        //Menu buttons
 
+        #region Menu buttons
 
         private void btnConsulta_Click(object sender, EventArgs e)
         {
@@ -46,10 +45,10 @@ namespace cajerox
         {
             tabControl1.SelectTab(2);
         }
+        #endregion
 
 
-        //Back buttons
-
+        #region Back buttons
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -88,9 +87,9 @@ namespace cajerox
             tabControl1.SelectTab(0);
         }
 
+        #endregion
 
-        //Exit Buttons
-
+        #region Exit buttons
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -131,9 +130,9 @@ namespace cajerox
         {
             Application.Exit();
         }
+        #endregion
 
-        //100 buttons
-
+        #region 100 buttons
 
         private void bt100_Click(object sender, EventArgs e)
         {
@@ -147,6 +146,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {              
@@ -167,6 +167,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -185,11 +186,11 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
+        #endregion
 
-        
-        //200 buttons
-
+        #region 200 buttons
 
         private void bt200_Click(object sender, EventArgs e)
         {
@@ -203,6 +204,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -211,7 +213,7 @@ namespace cajerox
             }
 
         }
-
+        
         private void bt_200_Click(object sender, EventArgs e)
         {
             if (mod.monto <= mod.saldo)
@@ -224,6 +226,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -242,13 +245,11 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
+        #endregion
 
-
-        //500 buttons
-
-
-      
+        #region 500 buttons
 
         private void bt_500_Click(object sender, EventArgs e)
         {
@@ -262,6 +263,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -282,6 +284,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -300,10 +303,11 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
+        #endregion
 
-
-        //1000 buttons
+        #region 1000 buttons
 
 
         private void btn1000_Click(object sender, EventArgs e)
@@ -316,6 +320,7 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
 
         private void bt_1000_Click(object sender, EventArgs e)
@@ -330,6 +335,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -350,6 +356,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -357,10 +364,9 @@ namespace cajerox
                 lblDisponible.Text = "$ " + Convert.ToString(mod.saldo);
             }
         }
+        #endregion
 
-
-        //2000 buttons
-
+        #region 2000 buttons
 
         private void bt2000_Click(object sender, EventArgs e)
         {
@@ -374,6 +380,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -394,6 +401,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -411,10 +419,11 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
-        
-        //5000 buttons
+        #endregion
 
+        #region 5000 buttons
 
         private void btn5000_Click(object sender, EventArgs e)
         {           
@@ -426,6 +435,7 @@ namespace cajerox
             lblDeposito.Text = "$ " + Convert.ToString(mod.monto);
             mod.tipo = "Deposito";
             tipo = mod.tipo;
+            nro += 1;
         }
 
         private void bt_5000_Click(object sender, EventArgs e)
@@ -440,6 +450,7 @@ namespace cajerox
                 lblRetiro.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Extraccion";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -460,6 +471,7 @@ namespace cajerox
                 lblTransferencia.Text = "$ " + Convert.ToString(mod.monto);
                 mod.tipo = "Transferencia";
                 tipo = mod.tipo;
+                nro += 1;
             }
             else
             {
@@ -468,25 +480,28 @@ namespace cajerox
             }
             
         }
+        #endregion
 
-        private void btnTicket_Click(object sender, EventArgs e)
+        #region ticket
+
+         private void btnTicket_Click(object sender, EventArgs e)
         {
-            Form ticket = new Ticket1(monto,tipo);
+            Form ticket = new Ticket1(monto,tipo,nro);
             ticket.Show();
         }
 
         private void btnTicket3_Click(object sender, EventArgs e)
         {
-            Ticket1 ticket = new Ticket1(monto,tipo);
+            Ticket1 ticket = new Ticket1(monto,tipo,nro);
             ticket.Show();
         }
 
         private void btnTicket2_Click(object sender, EventArgs e)
         {
-            Ticket1 ticket = new Ticket1(monto, tipo);
+            Ticket1 ticket = new Ticket1(monto, tipo,nro);
             ticket.Show();
         }
+        #endregion
 
-      
     }
 }

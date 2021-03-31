@@ -18,12 +18,13 @@ namespace cajerox
         string tipo;
         int monto;
         
-        public Ticket1 (int monto, string tipo)
+        public Ticket1 (int aMonto, string aTipo,int aNro)
         {
-            nro += 1;
+            
             InitializeComponent();
-            this.tipo = tipo;
-            this.monto = monto;
+            this.tipo = aTipo;
+            this.monto = aMonto;
+            this.nro = aNro;
             DateTime hoy = DateTime.Now;
             lblFecha.Text = hoy.ToShortDateString();
             lblHora.Text = hoy.ToShortTimeString();
